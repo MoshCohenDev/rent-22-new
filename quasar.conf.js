@@ -60,8 +60,6 @@ module.exports = configure(function (ctx) {
       // gzip: true,
       // analyze: true,
       env: {
-        KEY: 'AIzaSyDtWJYc791S_GaWBMEm3gGngn21b7OrlEE',
-        APP_ID: "1:721838438909:web:233b562ce89737b7944194"
       },
       // Options below are automatically set depending on the env, set them if you want to override
       // extractCSS: false,
