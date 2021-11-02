@@ -5,12 +5,12 @@ import 'firebase/storage';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDtWJYc791S_GaWBMEm3gGngn21b7OrlEE",
+  apiKey: process.env.KEY,
   authDomain: "my-rent-d100e.firebaseapp.com",
   projectId: "my-rent-d100e",
   storageBucket: "my-rent-d100e.appspot.com",
   messagingSenderId: "721838438909",
-  appId: "1:721838438909:web:233b562ce89737b7944194",
+  appId: process.env.APP_ID,
   measurementId: "G-7203L2ST2E"
 };
 
