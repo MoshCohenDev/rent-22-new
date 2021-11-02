@@ -1,9 +1,10 @@
 .DS_Store
 .thumbs.db
 node_modules
+./src/boot
 # Quasar core related directories
 .quasar
-./src/boot
+
 /dist
 
 # Cordova related directories and files
